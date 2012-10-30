@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+Current value in session store is: @((Model ?? "").ToString())
+
+<form action="/Home/Put" method="post">
+    <label for="value" />
+    <input type="text" name="value" id="value" />
+    <input type="submit" value="Post Value" />
+</form>

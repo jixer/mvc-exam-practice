@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\Code
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSockets", "WebSockets\WebSockets.csproj", "{CF43B3EB-7E93-4619-88B4-73587258E09B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State Overview", "State Overview", "{234E2587-0270-4D98-9338-7564BC5CCCC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session", "State Overview\Session\Session.csproj", "{1B891630-DF57-4162-9DF0-1909CE05A62B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,8 +29,15 @@ Global
 		{CF43B3EB-7E93-4619-88B4-73587258E09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF43B3EB-7E93-4619-88B4-73587258E09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF43B3EB-7E93-4619-88B4-73587258E09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B891630-DF57-4162-9DF0-1909CE05A62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B891630-DF57-4162-9DF0-1909CE05A62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B891630-DF57-4162-9DF0-1909CE05A62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B891630-DF57-4162-9DF0-1909CE05A62B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B891630-DF57-4162-9DF0-1909CE05A62B} = {234E2587-0270-4D98-9338-7564BC5CCCC2}
 	EndGlobalSection
 EndGlobal

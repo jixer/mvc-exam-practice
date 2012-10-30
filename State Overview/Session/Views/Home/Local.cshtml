@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Local";
+}
+
+<h2>Local</h2>
+The stored value is: <span id="local" />
+
+<script type="text/javascript">
+    window.load = function () {
+        var spn = document.getElementById("local");
+        spn.innerText = localStorage.value;
+    };
+</script>
