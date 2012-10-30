@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0AD71F3C-91D6-4162-8A95-0031EFF7B967}</ProjectGuid>
+    <ProjectGuid>{E147F0F2-194B-4FFF-A818-A79CB73F846F}</ProjectGuid>
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Chris.Samples.MvcExam.CodeFirst</RootNamespace>
-    <AssemblyName>Chris.Samples.MvcExam.CodeFirst</AssemblyName>
+    <RootNamespace>Chris.Samples.MvcExam.Caching</RootNamespace>
+    <AssemblyName>Chris.Samples.MvcExam.Caching</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -130,8 +130,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\EquipmentsController.cs" />
-    <Compile Include="Controllers\EquipmentTypesController.cs" />
     <Compile Include="Controllers\TechniciansController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -145,12 +143,6 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Views\Equipments\Create.cshtml" />
-    <Content Include="Views\Equipments\Edit.cshtml" />
-    <Content Include="Views\Equipments\Delete.cshtml" />
-    <Content Include="Views\Equipments\Details.cshtml" />
-    <Content Include="Views\Equipments\Index.cshtml" />
-    <Content Include="Views\Equipments\_CreateOrEdit.cshtml" />
     <Content Include="Views\Technicians\Create.cshtml" />
     <Content Include="Views\Technicians\Edit.cshtml" />
     <Content Include="Views\Technicians\Delete.cshtml" />
@@ -196,12 +188,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\EquipmentTypes\Create.cshtml" />
-    <Content Include="Views\EquipmentTypes\Edit.cshtml" />
-    <Content Include="Views\EquipmentTypes\Delete.cshtml" />
-    <Content Include="Views\EquipmentTypes\Details.cshtml" />
-    <Content Include="Views\EquipmentTypes\Index.cshtml" />
-    <Content Include="Views\EquipmentTypes\_CreateOrEdit.cshtml" />
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <None Include="_bin_deployableAssemblies\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
   </ItemGroup>
