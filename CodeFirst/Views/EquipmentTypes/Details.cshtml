@@ -1,0 +1,23 @@
+@model Chris.Samples.MvcExam.CodeFirst.Models.EquipmentType
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>EquipmentType</legend>
+
+    <div class="display-label">ShortDescription</div>
+    <div class="display-field">@Model.ShortDescription</div>
+
+    <div class="display-label">Description</div>
+    <div class="display-field">@Model.Description</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

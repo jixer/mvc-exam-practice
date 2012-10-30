@@ -1,0 +1,23 @@
+@model Chris.Samples.MvcExam.CodeFirst.Models.Equipment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Equipment</legend>
+
+    <div class="display-label">EquipmentType</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.EquipmentType).ToString()</div>
+
+    <div class="display-label">Technician</div>
+    <div class="display-field">@(Model.Technician == null ? "None" : Model.Technician.LastName)</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+
