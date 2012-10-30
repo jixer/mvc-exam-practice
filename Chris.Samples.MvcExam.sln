@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching", "Caching\Caching.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{0AD71F3C-91D6-4162-8A95-0031EFF7B967}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSockets", "WebSockets\WebSockets.csproj", "{CF43B3EB-7E93-4619-88B4-73587258E09B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{0AD71F3C-91D6-4162-8A95-0031EFF7B967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD71F3C-91D6-4162-8A95-0031EFF7B967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD71F3C-91D6-4162-8A95-0031EFF7B967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF43B3EB-7E93-4619-88B4-73587258E09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF43B3EB-7E93-4619-88B4-73587258E09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF43B3EB-7E93-4619-88B4-73587258E09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF43B3EB-7E93-4619-88B4-73587258E09B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
